@@ -79,4 +79,4 @@ The following GIF shows the output of 'best.pt' model.
 
 Currently, my model can only complete half of the lap and is not yet able to finish 100%.
 
-![20221112_015409](demo\demo.gif)
+![20221112_015409](demo/demo.gif)
