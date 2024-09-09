@@ -28,9 +28,9 @@ With my code, you can:
 4. Now click on the record button and choose 'dataset/' folder for saving driving data.
 5. Align the car on the track and then click on the record button again, then drive the car in the track for 9 or 10 laps. Click on the record button again to stop recording.
 6. After recording, the recorded images and driving_log.csv files can be found under respective folders.
-7. Since the data will not be balanced, there will be more straight-going images than left-turning images, and more left-turning images than right-turning ones. Therefore, we will augment the training data by randomly flipping some left-turning images into right-turning ones so that the model can learn better.
+7. We only get image from the center camera for training, run the script:
 
-        python augmentation.py -d dataset/ -i augmented_images/ 
+        python format_data.py -d dataset/ -i augmented_images/ 
 
 ## Setting:
 
